@@ -4,7 +4,7 @@ The files in this repository were used to configure the network depicted below.
 
 ![Image](Images/Red_Team_Elk_Network_Diagram.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
 - [Playbook_YML](Playbook_YML)
 
@@ -33,11 +33,11 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Jump Box |Gateway   | 10.0.0.4   | Linux            |
+| Web-1    |Web server| 10.0.0.5   | Linux            |
+| Web-2    |Web server| 10.0.0.6   | Linux            |
+| Web-3    |Web server| 10.0.0.7   | Linux            |
+| ELK      |Monitoring| 10.1.0.4   | Linux            |
 
 ### Access Policies
 
