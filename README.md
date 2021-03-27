@@ -53,13 +53,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
-|          |                     |                      |
-|          |                     |                      |
-|          |                     |                      |
-|          |                     |                      |
+| Jump Box | No                  | Personal IP          |
+| Web-1    | No                  |                      |
+| Web-2    | No                  |                      |
+| Web-3    | No                  |                      |
+| Elk      | No                  | Personal IP andn 10.1.0.4|
 
 ### Elk Configuration
 
