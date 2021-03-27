@@ -90,7 +90,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the yml file to roles.
+- Copy the .yml files to /etc/ansible/roles.
 - Update the hosts file to include the private IPs of the webservers and elk server
 - Run the playbook, and navigate to http://<ELK.VM.External.IP>:5601/app/kibana to check that the installation worked as expected.
 
