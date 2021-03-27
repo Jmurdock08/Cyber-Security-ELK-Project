@@ -24,7 +24,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, in addition to restricting traffic inbound to the network.
 - Load balancers help to protect the network from DDoS attacks by distributing incoming traffic across a group of backend servers. The main advantage of implementing a jumpbox is being able to have instant and secure access to network and applications.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network logs and system metrics.
 - Filebeat monitors log files and specified locations. It then forwards the collected data to Elasticsearch to be indexed.
 - Metricbeat records the networks system metrics
 
