@@ -82,7 +82,7 @@ We have installed the following Beats on these machines:
 - Filebeat
 
 These Beats allow us to collect the following information from each machine:
-- TODO
+- Filebeat collects the data from log files which is then forwarded to Elasticsearch to be indexed.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
